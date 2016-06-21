@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var billAmountField: UITextField!
+    @IBOutlet weak var tipSelector: UISegmentedControl!
+    @IBOutlet weak var tipAmountField: UITextField!
+    @IBOutlet weak var totalAmountField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()

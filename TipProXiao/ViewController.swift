@@ -58,6 +58,10 @@ class ViewController: UIViewController {
         tipAmountField.text = String(format: "%.2f", roundedTipAmount)
         totalAmountField.text = String(format: "%.2f", totalAmount)
     }
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
+    }
 
 }
 
